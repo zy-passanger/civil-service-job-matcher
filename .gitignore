@@ -1,0 +1,35 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Local run artifacts
+work/
+outputs/
+.pytest_cache/
+
+# Root-level personal inputs, manifests and intermediate results
+/input.txt
+/input.json
+/profile.json
+/discovery.json
+/sources.json
+/source.json
+/target.json
+/jobs.json
+/policy.json
+/catalog.json
+/collection.json
+/positions.xlsx
+/positions.xls
+/positions.csv
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# OS metadata
+.DS_Store

@@ -1,0 +1,4 @@
+interface:
+  display_name: "公考岗位自动匹配助手"
+  short_description: "输入多学历、多专业与省份，获取官方招录资料并生成可追溯匹配清单"
+  default_prompt: "使用 $civil-service-job-matcher，根据我的多学历、多专业和目标省份，自动获取官方招录资料并匹配岗位。"

@@ -1,0 +1,58 @@
+{
+  "province_names": [
+    "北京",
+    "天津",
+    "河北",
+    "山西",
+    "内蒙古",
+    "辽宁",
+    "吉林",
+    "黑龙江",
+    "上海",
+    "江苏",
+    "浙江",
+    "安徽",
+    "福建",
+    "江西",
+    "山东",
+    "河南",
+    "湖北",
+    "湖南",
+    "广东",
+    "广西",
+    "海南",
+    "重庆",
+    "四川",
+    "贵州",
+    "云南",
+    "西藏",
+    "陕西",
+    "甘肃",
+    "青海",
+    "宁夏",
+    "新疆"
+  ],
+  "discovery": "agent_web_search_required",
+  "verified_examples": {
+    "湖南": [
+      {
+        "year": 2026,
+        "announcement": "https://www.hxw.gov.cn/content/2026/01/13/14851200.html",
+        "topic": "https://www.hxw.gov.cn/topic/294/",
+        "publisher": "中共湖南省委组织部红星网",
+        "verified_at": "2026-11-24",
+        "historical_only": true
+      }
+    ],
+    "安徽": [
+      {
+        "year": 2026,
+        "announcement": "https://www.fyxfw.gov.cn/display.php?id=151706",
+        "publisher": "中共阜阳市委组织部，转载安徽省公务员局公告",
+        "verified_at": "2026-11-24",
+        "historical_only": true,
+        "coverage_note": "附件不能视为全省岗位全覆盖，需继续各地市官方表"
+      }
+    ]
+  }
+}

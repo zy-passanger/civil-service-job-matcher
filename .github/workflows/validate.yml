@@ -1,0 +1,21 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: python -m pip install -r scripts/requirements.txt
+      - name: Run matcher tests
+        run: python -B scripts/test_matcher.py
